@@ -1,3 +1,13 @@
+:root {
+  /*  Primary Colors  */
+  --bright-orange: #e38826;
+  --dark-cyan: #006970;
+  --very-dark-cyan: #004241;
+  /*  Neutral Colors  */
+  --transparent-white: rgba(255, 255, 255, 0.75);
+  --very-light-gray: #f2f2f2;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -12,5 +22,144 @@
 
 .attribution a {
   color: #3e52a3;
+}
+
+body {
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 15px;
+  width: 100%;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: var(--very-light-gray);
+}
+
+.container {
+  max-width: 720px;
+  margin: auto;
+}
+
+a.no-decoration {
+  text-decoration: none;
+  color: inherit;
+}
+
+.mr-b-24 {
+  margin-bottom: 24px;
+}
+
+.mr-t-32 {
+  margin-top: 32px;
+}
+
+.wrapper {
+  padding: 32px;
+}
+
+.cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.cards .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  min-height: 400px;
+  padding: 32px;
+  color: var(--transparent-white);
+}
+
+.cards .card:nth-child(1) {
+  background: var(--bright-orange);
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.cards .card:nth-child(1) .btn {
+  color: var(--bright-orange);
+}
+
+.cards .card:nth-child(2) {
+  background: var(--dark-cyan);
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.cards .card:nth-child(2) .btn {
+  color: var(--dark-cyan);
+}
+
+.cards .card:nth-child(3) {
+  background: var(--very-dark-cyan);
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.cards .card:nth-child(3) .btn {
+  color: var(--very-dark-cyan);
+}
+
+.cards .card .title {
+  text-transform: uppercase;
+  font-family: 'Big Shoulders Display', cursive;
+  font-size: 2rem;
+}
+
+.cards .card .description {
+  font-size: .7rem;
+}
+
+.cards .card .btn {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  padding: 8px 16px 8px 16px;
+  border: 2px solid #fff;
+  border-radius: 50px;
+  -webkit-transition: .5s;
+  transition: .5s;
+  background: #fff;
+}
+
+.cards .card .btn:hover {
+  background: none;
+  color: var(--transparent-white);
+}
+
+@media screen and (max-width: 500px) {
+  .cards {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .cards .card {
+    min-height: 0px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
