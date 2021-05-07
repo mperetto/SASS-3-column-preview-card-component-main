@@ -76,21 +76,18 @@ a.no-decoration {
         color: var(--transparent-white);
         &:nth-child(1) {
             background: var(--bright-orange);
-            flex-grow: 1;
             .btn {
                 color: var(--bright-orange);
             }
         }
         &:nth-child(2) {
             background: var(--dark-cyan);
-            flex-grow: 1;
             .btn {
                 color: var(--dark-cyan);
             }
         }
         &:nth-child(3) {
             background: var(--very-dark-cyan);
-            flex-grow: 1;
             .btn {
                 color: var(--very-dark-cyan);
             }

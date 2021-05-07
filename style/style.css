@@ -93,9 +93,6 @@ a.no-decoration {
 
 .cards .card:nth-child(1) {
   background: var(--bright-orange);
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
 }
 
 .cards .card:nth-child(1) .btn {
@@ -104,9 +101,6 @@ a.no-decoration {
 
 .cards .card:nth-child(2) {
   background: var(--dark-cyan);
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
 }
 
 .cards .card:nth-child(2) .btn {
@@ -115,9 +109,6 @@ a.no-decoration {
 
 .cards .card:nth-child(3) {
   background: var(--very-dark-cyan);
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
 }
 
 .cards .card:nth-child(3) .btn {
