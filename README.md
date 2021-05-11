@@ -32,8 +32,8 @@ Mobile version
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/3-column-card-using-sass-and-css-flex-property-W4Dd4KhVz)
+- Live Site URL: [netlify site](https://3-column-preview-card-component-challenge.netlify.app/)
 
 ## My process
 
