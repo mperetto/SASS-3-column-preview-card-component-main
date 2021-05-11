@@ -123,6 +123,7 @@ a.no-decoration {
 
 .cards .card .description {
   font-size: .7rem;
+  line-height: 1.7;
 }
 
 .cards .card .btn {
